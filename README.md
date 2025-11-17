@@ -11,6 +11,7 @@ sudulist是个任务管理程序，由单个html文件实现
 
 我是一名学生，程序中可能含有一些bug请见谅
 
+程序部分由ai辅助完成
 
 Sudulist is a task management program implemented through a single HTML file. 
 
@@ -23,3 +24,5 @@ Simple interface with dynamic animations, easy to use
 At the same time, there is a cat assistant who can cheer you up while you are working 
 
 I am a student. im sorry about that here might be some bugs in the program. 
+
+The program part is completed with the assistance of AI.
