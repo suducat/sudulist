@@ -28,3 +28,7 @@ At the same time, there is a cat assistant who can cheer you up while you are wo
 I am a student. im sorry about that here might be some bugs in the program. 
 
 The program part is completed with the assistance of AI.
+
+
+更新日志
+11.18 完善了英文模式，但是还是有一些bug
