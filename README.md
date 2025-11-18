@@ -1,4 +1,6 @@
 # sudulist
+![演示](https://github.com/user-attachments/assets/c6896476-d067-48f8-9f5f-f75c284d5d27)
+
 sudulist是个任务管理程序，由单个html文件实现
 
 特色功能：可以智能识别语句中的时间并安排任务
