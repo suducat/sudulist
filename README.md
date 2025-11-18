@@ -3,6 +3,8 @@ A Smart Task Manager in One HTML File
 ✨ 为什么选择 SuduList？
 作为一个由学生开发的单文件工具，它把「智能」和「简单」结合得刚刚好：
 
+我将会持续更新这个程序，喜欢的话记得帮我点个star～
+
 ![2025-11-1820 22 51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/fc445de6-129f-4f64-858d-8bae03fda99d)
 
 * 		仅 1 个 HTML 文件：无需安装，双击即用，手机 / 电脑都能跑，数据存在本地不丢失
@@ -49,11 +51,20 @@ A Smart Task Manager in One HTML File
 * 		🔜 猫助手语录自定义（可以添加自己的加油话）
 *             🔜 支持英文自然语言输入
 
+更新日志：
+11.18 v1.0.4 修复了很多英文模式下的bug，现在英文模式下使用不会出现大问题了
 
+11.19 v1.0.5 大大优化了整体性能：
+             新增防抖机制：针对任务统计、智能建议、图表渲染等设置差异化延迟，任务渲染叠加双重保护，减少无效计算与 DOM 操作
+             优化 Storage 缓存系统：内存缓存，批量保存，防抖写入
+             强化 DOM 元素缓存：缓存常用节点与任务元素，通过状态检查避免重复渲染
+             规范定时器管理：集中管控 + 页面隐藏暂停 + 自动清理，节省 CPU 资源并防止内存泄漏
+            
 
  SuduList | Single-file Intelligent Task Manager A Smart Task Manager in One HTML File
 ✨ Why choose SuduList?
 As a single-file tool developed by students, it combines "intelligence" and "simplicity" perfectly: 
+
 *   Just 1 HTML file: No installation required. Double-click to use. Works on both mobile and computer. Data is stored locally and won't be lost.
 *   AI-level time recognition: Input "Submit homework at 3 PM tomorrow afternoon", the system automatically parses the time and schedules it. No need to manually select the date.
 *   Efficient and powerful quick operations: Mark priority levels (high / medium / low) with one click, drag to adjust time. The operation is even faster than taking notes.
@@ -61,6 +72,7 @@ As a single-file tool developed by students, it combines "intelligence" and "sim
 *   Customizable to the details: Theme color, font size, animation speed can all be changed. Your tool is up to you.
 *   Enhanced with Cat Assistant: When tired, it will send you motivational quotes (such as "I also worked super hard today! Take a 5-minute break and keep going~")
 core Function Overview
+
 ✅ Intelligent time parsing | Input sentences with time and the system automatically recognizes and archives them. The system can intelligently recognize sentences like "Class at noon tomorrow afternoon" 
 ✅ Quick Priority Setting | Just click to mark important tasks, and the colors clearly distinguish them. 
 ✅ Task Statistics Dashboard | View the completion status of past tasks, conduct intelligent task analysis, and visualize the sense of achievement 
@@ -70,20 +82,30 @@ core Function Overview
 ✅ Supports bilingual (Chinese and English) (There may be minor bugs in the English mode)
     nterface preview ! [Demo](https://github.com/user-attachments/assets/9cf27cfe-970b-4b24-a623-f4f0e2cb612d) 
     ow to use?
+    
 * Click on sudulist.html in the repository
 * Click the Raw button on the top right corner to jump to the pure file page
 * Right-click and save to your computer. Open it with any browser (mobile users: Open with Chrome/Edge or other browsers after saving. It is recommended to add it to your desktop for convenience)
    Development Notes
+  
 * I am a student. This is my first open-source small project. The code may have some imperfect parts. If you encounter bugs, please tell me in the Issues section and I will try to fix them.
 * Some functions (such as time recognition logic) are assisted by AI. It has been checked for plagiarism. Welcome everyone to optimize the code together.
    Future Features to Add
+  
 *🔜 Add sub-task function (for example, "Write a thesis" includes "Search for materials + Write an outline")
 *🔜 Customize cat assistant quotes (you can add your own motivational words)
 * 🔜 Support for natural language input in English
 
 
-更新日志：
-11.18 v.1.0.4 修复了非常非常多英文模式下的bug
-
 stack + browser compatibility list—great for students to learn, developers to fork & customize—open-source spirit at its best!
+
+
+11.18 v1.0.4 has fixed many bugs in the English mode. Now, using the English mode will no longer cause any major problems. 
+11.19 v1.0.5 significantly improved the overall performance:
+             Added a debounce mechanism: Differentiated delays were set for task statistics, intelligent suggestions, and chart rendering. The task rendering was doubly protected to reduce invalid calculations and DOM operations.
+             Optimized the Storage cache system: Memory caching, batch saving, and debounce writing.
+             Strengthened DOM element caching: Common nodes and task elements were cached, and repeated rendering was avoided through state checks.
+             Standardized timer management: Centralized control + page hiding pause + automatic cleaning, saving CPU resources and preventing memory leaks.
+
+
 
