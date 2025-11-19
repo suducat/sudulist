@@ -1,18 +1,25 @@
 🐱 SuduList | 单文件智能任务管理器
 A Smart Task Manager in One HTML File
+
+
 (等一等会加载出gif演示图）
+
+
 更新日志：
 11.18 v1.0.4 修复了很多英文模式下的bug，现在英文模式下使用不会出现大问题了
+
 
 11.19 v1.0.5 大大优化了整体性能：
              新增防抖机制：针对任务统计、智能建议、图表渲染等设置差异化延迟，减少无效计算与 DOM 操作
              优化 Storage 缓存系统
              强化 DOM 元素缓存,避免重复渲染
              规范定时器管理，节省 CPU 资源并防止内存泄漏
+             
 
 11.19 v1.0.6 任务详情和任务冲突界面出现了许多错误的翻译键，暂时强制在这两个页面强制切为中文
              在设置中增加了自动忽略冲突的功能
              修复了在快捷调整时间时会一抖一抖的bug
+
 
 *     我将会超级高频的持续更新这个程序，喜欢的话记得帮我点个star～，这对我非常重要
 
@@ -20,7 +27,6 @@ A Smart Task Manager in One HTML File
 ✨ 为什么选择 SuduList？
 作为一个由学生开发的单文件工具，它把「智能」和「简单」结合得刚刚好：
 
-我将会持续更新这个程序，喜欢的话记得帮我点个star～
 
 ![2025-11-1820 22 51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/fc445de6-129f-4f64-858d-8bae03fda99d)
 
@@ -37,32 +43,43 @@ A Smart Task Manager in One HTML File
 
 ✅ 优先级快捷设置 | 点一下标记重要任务，颜色区分一目了然
 
+
 ✅ 任务统计看板｜查看往日任务展示完成情况，智能任务分析成就感可视化
+
 
 ![2025-11-1820 22 51-ezgif com-video-to-gif-converter-2](https://github.com/user-attachments/assets/4b1d753d-5131-41bf-ae83-c25f009424ae)
 
+
 ✅ 到期提醒 | 浏览器弹窗 + 桌面通知（需授权），不怕遗漏
+
 
 ✅ 高度自定义设置｜时间关键词，繁忙时间由你设定
 
+
 ![2025-11-1820 22 51-ezgif com-video-to-gif-converter-3](https://github.com/user-attachments/assets/d4b10a7c-6f76-46c8-8f3e-43334d28e06e)
+
 
 ✅ 猫助手互动 | 随机掉落鼓励语录，分析完成情况，学习工作不枯燥（还有超级带感的摸摸功能）
 
+
 ![2025-11-1820 22 51-ezgif com-video-to-gif-converter-3](https://github.com/user-attachments/assets/307aa280-bd4b-46c2-9d4d-29079586db38)
+
 
 ✅支持中英文双语（英文模式会有小bug）
 
-📸 界面预览
 
 
 🔍 如何使用？
 * 		点击仓库里的 sudulist.html
 * 		点击右上角 Raw 按钮，跳转到纯文件页面
 * 		右键保存到电脑，用任意浏览器打开即可 （手机用户：保存后用 Chrome/Edge 等浏览器打开，建议添加到桌面更方便）
+
+
 📝 开发说明
 * 		我是一名学生，这是我的第一个开源小项目，代码可能有不完美的地方，遇到 Bug 请在 Issues 里告诉我，会努力修复～
 * 		部分功能（如时间识别逻辑）由 AI 辅助实现，已检查无抄袭，欢迎大家一起优化代码～
+
+
 🎯 未来想加的功能
 * 		🔜 增加子任务功能（比如 “写论文” 包含 “查资料 + 写提纲”）
 * 		🔜 猫助手语录自定义（可以添加自己的加油话）
