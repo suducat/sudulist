@@ -1,5 +1,22 @@
 🐱 SuduList | 单文件智能任务管理器
 A Smart Task Manager in One HTML File
+(等一等会加载出gif演示图）
+更新日志：
+11.18 v1.0.4 修复了很多英文模式下的bug，现在英文模式下使用不会出现大问题了
+
+11.19 v1.0.5 大大优化了整体性能：
+             新增防抖机制：针对任务统计、智能建议、图表渲染等设置差异化延迟，减少无效计算与 DOM 操作
+             优化 Storage 缓存系统
+             强化 DOM 元素缓存,避免重复渲染
+             规范定时器管理，节省 CPU 资源并防止内存泄漏
+
+11.19 v1.0.6 任务详情和任务冲突界面出现了许多错误的翻译键，暂时强制在这两个页面强制切为中文
+             在设置中增加了自动忽略冲突的功能
+             修复了在快捷调整时间时会一抖一抖的bug
+
+*     我将会超级高频的持续更新这个程序，喜欢的话记得帮我点个star～，这对我非常重要
+
+
 ✨ 为什么选择 SuduList？
 作为一个由学生开发的单文件工具，它把「智能」和「简单」结合得刚刚好：
 
@@ -51,14 +68,6 @@ A Smart Task Manager in One HTML File
 * 		🔜 猫助手语录自定义（可以添加自己的加油话）
 *             🔜 支持英文自然语言输入
 
-更新日志：
-11.18 v1.0.4 修复了很多英文模式下的bug，现在英文模式下使用不会出现大问题了
-
-11.19 v1.0.5 大大优化了整体性能：
-             新增防抖机制：针对任务统计、智能建议、图表渲染等设置差异化延迟，任务渲染叠加双重保护，减少无效计算与 DOM 操作
-             优化 Storage 缓存系统：内存缓存，批量保存，防抖写入
-             强化 DOM 元素缓存：缓存常用节点与任务元素，通过状态检查避免重复渲染
-             规范定时器管理：集中管控 + 页面隐藏暂停 + 自动清理，节省 CPU 资源并防止内存泄漏
             
 
  SuduList | Single-file Intelligent Task Manager A Smart Task Manager in One HTML File
@@ -106,6 +115,10 @@ stack + browser compatibility list—great for students to learn, developers to 
              Optimized the Storage cache system: Memory caching, batch saving, and debounce writing.
              Strengthened DOM element caching: Common nodes and task elements were cached, and repeated rendering was avoided through state checks.
              Standardized timer management: Centralized control + page hiding pause + automatic cleaning, saving CPU resources and preventing memory leaks.
+
+11.19 v1.0.6 There were many incorrect translation keys in the task details and task conflict interface. For the time being, we have temporarily forced the switching to Chinese on these two pages.
+           The function of automatically ignoring conflicts has been added in the settings.
+           The bug that caused jittering when adjusting the time quickly has been fixed.
 
 
 
