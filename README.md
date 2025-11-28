@@ -116,6 +116,17 @@ A Smart Task Manager in One HTML File
              
              一些不值得一提的小完善
 
+
+11.28 v1.0.9 保持输入框置顶方便使用
+
+             在按下回车后输入焦点会继续保持在输入框内以便连续添加任务
+
+             将一些模块样式统一为圆角
+
+             添加了如果没有精确时间则自动设置为早上的设定
+
+             启动速度和一些小优化
+
             
 
  SuduList | Single-file Intelligent Task Manager A Smart Task Manager in One HTML File
