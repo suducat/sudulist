@@ -127,6 +127,13 @@ A Smart Task Manager in One HTML File
 
              启动速度和一些小优化
 
+12.23 v1.1   增加深色模式更加护眼
+
+             任务完成时添加下滑动画
+
+             小问题修复
+             
+
             
 
  SuduList | Single-file Intelligent Task Manager A Smart Task Manager in One HTML File
